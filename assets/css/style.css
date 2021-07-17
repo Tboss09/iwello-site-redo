@@ -2,7 +2,7 @@
 .info-text h2 {
     font-size: 1rem;
     font-weight: 600;
-color: #4F42B5;
+color: #D115D1;
  padding: 10px 0px;
  text-transform: uppercase;
  letter-spacing: 2px;
@@ -80,7 +80,7 @@ position: relative;
 
     font-weight: 400;
     float: left;
-    padding-left: 45px;
+    padding-left: 45px; 
     line-height: 25px;
   }
   
@@ -128,14 +128,14 @@ position: relative;
   
   .accordion-button:not(.collapsed) {
     color: #fff;
-    background-color: #4F42B5;
+    background-color: #D115D1;
     border-color: transparent;
     border-radius: 8px 8px 0 0;
   }
   
   .accordion-button:not(.collapsed) .serial {
     background-color: #fff;
-    color: #4F42B5;
+    color: #D115D1;
     border-color: transparent;
   }
   
@@ -187,4 +187,34 @@ position: relative;
     margin-bottom: 20px;
   }
   
+/* Consultation with the doctor */
+
+/* Consultation with the doctor */
+.call-action .cta-content h2 {
+  width:65%;
+}
 /* Faq js */
+.faq{
+  margin-top: 4rem;
+}
+/* Styled svg*/
+.style-svg{
+  position: absolute;
+  width: 190px;
+  left: 0;
+}
+.features{
+  margin-bottom: 3rem;
+}
+
+
+.aboutUs{
+  margin-top: 3rem;
+}
+
+
+.aboutUs a {
+  margin-top: .7rem;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
